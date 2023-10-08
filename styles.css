@@ -141,3 +141,29 @@ body {
     font-size: 10px;
     font-style: italic;
 }
+
+
+
+.zoom{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.zoom img {
+    transition-duration: 2s;
+    margin: 0 auto;
+    display: block;
+   
+  
+  
+}
+.zoom img:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    z-index: 0;
+    
+   
+   
+  
+}
